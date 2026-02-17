@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Carter | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="logo" href="#home">Alex Carter</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <p class="eyebrow">Web Developer & Designer</p>
+        <h1>Hi, I build clean, modern websites that help businesses grow.</h1>
+        <p class="hero-copy">
+          I’m a front-end developer focused on creating fast, accessible, and beautiful web
+          experiences.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Let’s Talk</a>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2>About Me</h2>
+        <p>
+          I’m passionate about turning ideas into polished digital products. My work blends thoughtful
+          UI design with maintainable code to deliver websites that look great and perform even better.
+        </p>
+      </section>
+
+      <section id="projects" class="section container">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+          <article class="card">
+            <h3>Startup Landing Page</h3>
+            <p>
+              Designed and developed a high-converting landing page with custom animations and clear
+              conversion paths.
+            </p>
+          </article>
+          <article class="card">
+            <h3>E-commerce Redesign</h3>
+            <p>
+              Rebuilt an online store interface to improve product discovery and streamline checkout.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Agency Portfolio Site</h3>
+            <p>
+              Built a responsive portfolio for a creative agency, including reusable case-study
+              components.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container contact">
+        <h2>Let’s Work Together</h2>
+        <p>Have a project in mind? I’d love to hear from you.</p>
+        <a class="btn btn-primary" href="mailto:alex@example.com">alex@example.com</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Alex Carter. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
